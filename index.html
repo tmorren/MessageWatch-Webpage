@@ -3,6 +3,9 @@
 <head>
 	<title>VerQu | MessageWatch</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-flex.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -14,17 +17,48 @@
 			<img id="headerUI" src="img/messagewatch-ui-half.png">
 		</div>
 	</div>
-	<div class="container-fluid" id="banner">
-		<div></div>
+	<div class="row" id="banner">
+		<div class="container">
+			<h3>With MessageWatch, Compliance has never been easier</h3>
+		</div>
 	</div>
 
-	<section class="row" id="sectionSelectFolder">
-		<div class="container">
-			<p>This is a test</p>
+	<!-- Select Folder Sections -->
+	<section class="container" id="sectionSelectFolder">
+		<div class="row">
+			<div class="col-lg-5 offset-lg-1" id="textSelectFolder">
+				<div>
+					<h3>Select a folder</h3>
+					<p>You’ll find all the projects you’re working on listed in the sidebar. If you’re starting a new project, use the repository drop down menu to create a new repository or clone an existing one directly from GitHub.com.</p>
+				</div>
+			</div>
+			<div class="col-lg-5">
+				<img  src="img/select-folder.png">
+			</div>
+		</div>
+	</section>
+
+	<!-- Configure Settings Sections -->
+	<section class="container" id="sectionConfigureSettings">
+		<div class="row">
+			<div class="col-lg-5 push-lg-6" id="textConfigureSettings">
+				<div>
+					<h3>Configure Settings</h3>
+					<p>You’ll find all the projects you’re working on listed in the sidebar. If you’re starting a new project, use the repository drop down menu to create a new repository or clone an existing one directly from GitHub.com.</p>
+				</div>
+			</div>
+			<div class="col-lg-5 pull-lg-5 offset-lg-1">
+				<img  src="img/configure-settings.png">
+			</div>
 		</div>
 	</section>
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
+
+	<!-- Footer -->
+	<footer class="container-fluid">
+		<p>MessageWatch&copy;</p>
+	</footer>
 </body>
 </html>

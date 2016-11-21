@@ -2,10 +2,22 @@ body{
 	background: #efefef;
 }
 
+h1, h2, h3, h4, h5, h6{
+	margin-top: 10px;/* So there is the same margin on top and bottom */
+}
+
+.row{
+	margin: 0;
+}
+
+img{
+	max-width: 100%;
+}
+
 /* Header */
 
 #headerMain{
-	background: linear-gradient(#52575B, #2A2B28);
+	background: linear-gradient(#8DACEF, #2A2B28);
 	color: white;
 	text-align: center;
 	padding-bottom: 0;
@@ -20,9 +32,43 @@ body{
 	max-width: 100%;
 }
 
+/* Banner Section */
 #banner{
-	min-height: 10vh;
 	background: #4E73AB;
+	color: #EFEFEF;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align: center;
 }
 
 /* Select Folder Section */
+#sectionSelectFolder{
+	padding: 2em 15px;
+}
+
+#textSelectFolder{
+	display: flex;
+	align-items: center;
+}
+
+/* Configure Setting Section */
+#sectionConfigureSettings{
+	padding: 2em 15px;
+}
+
+#textConfigureSettings{
+	display: flex;
+	align-items: center;
+}
+
+/* Footer */
+footer{
+	min-height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #2A2B28;
+	color: white;
+
+}
+
