@@ -1,0 +1,28 @@
+body{
+	background: #efefef;
+}
+
+/* Header */
+
+#headerMain{
+	background: linear-gradient(#52575B, #2A2B28);
+	color: white;
+	text-align: center;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#headerUI{
+	display: none;
+}
+
+#headerMain img{
+	max-width: 100%;
+}
+
+#banner{
+	min-height: 10vh;
+	background: #4E73AB;
+}
+
+/* Select Folder Section */
