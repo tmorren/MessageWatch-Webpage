@@ -28,6 +28,11 @@ h1, h2, h3, h4, h5, h6{
 	max-width: 100%;
 }
 
+#headerMain img#headerLogo, footer img{
+	max-width: 300px;
+	width: 80%;
+}
+
 /* Banner Section */
 #banner{
 	background: #4E73AB;
