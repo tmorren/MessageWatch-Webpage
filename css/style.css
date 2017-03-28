@@ -10,7 +10,9 @@ h1, h2, h3, h4, h5, h6{
 	margin: 0;
 }
 
-/* Header */
+/******************* 
+	Header 
+********************/
 
 #headerMain{
 	background: linear-gradient(#8DACEF, #2A2B28);
@@ -28,12 +30,14 @@ h1, h2, h3, h4, h5, h6{
 	max-width: 100%;
 }
 
-#headerMain img#headerLogo, footer img{
+#headerMain img#headerLogo{
 	max-width: 300px;
 	width: 80%;
 }
 
-/* Banner Section */
+/***************************** 
+	Banner Section 
+****************************/
 #banner{
 	background: #4E73AB;
 	color: #EFEFEF;
@@ -42,7 +46,9 @@ h1, h2, h3, h4, h5, h6{
 	text-align: center;
 }
 
-/* Select Folder Section */
+/*******************************
+	 Select Folder Section 
+*******************************/
 #sectionSelectFolder{
 	padding: 4em 15px 2em 15px;
 }
@@ -55,9 +61,12 @@ h1, h2, h3, h4, h5, h6{
 
 #sectionSelectFolder img{
 	max-width: 40vw;
+	box-shadow: 0px 0px 10px 1px #888888;
 }
 
-/* Configure Setting Section */
+/******************************
+ 	Configure Setting Section 
+*******************************/
 #sectionConfigureSettings{
 	padding: 2em 15px;
 }
@@ -73,6 +82,15 @@ h1, h2, h3, h4, h5, h6{
 	box-shadow: 0px 0px 10px 1px #888888;
 }
 
+@media (max-width: 992px){
+	#sectionConfigureSettings img{
+		text-align: center;
+		max-width: 100%;
+		width: 100%;
+		box-shadow: 0px 0px 10px 1px #888888;
+	}
+}
+
 /* Other Section*/
 #sectionOther{
 	text-align: center;
@@ -84,7 +102,9 @@ h1, h2, h3, h4, h5, h6{
 	box-shadow: 0px 0px 10px 1px #888888;
 }
 
-/* Footer */
+/******************* 
+	Footer 
+*******************/
 footer{
 	background: #2A2B28;
 	color: white;
@@ -92,3 +112,7 @@ footer{
 	padding: 2em 0;
 }
 
+footer img{
+	max-width: 150px;
+	width: 80%;
+}
