@@ -10,6 +10,13 @@ h1, h2, h3, h4, h5, h6{
 	margin: 0;
 }
 
+/**********************
+	General
+***********************/
+.step-number{
+	color: white;
+}
+
 /******************* 
 	Header 
 ********************/
@@ -38,12 +45,16 @@ h1, h2, h3, h4, h5, h6{
 /***************************** 
 	Banner Section 
 ****************************/
-#banner{
+.banner{
 	background: #4E73AB;
 	color: #EFEFEF;
 	padding-top: 2em;
 	padding-bottom: 2em;
 	text-align: center;
+}
+
+#worksBanner{
+	background: #2D333B;
 }
 
 /*******************************
@@ -60,8 +71,17 @@ h1, h2, h3, h4, h5, h6{
 
 
 #sectionSelectFolder img{
-	max-width: 40vw;
+	max-width: 35vw;
 	box-shadow: 0px 0px 10px 1px #888888;
+}
+
+@media (max-width: 992px){
+	#sectionSelectFolder img{
+		text-align: center;
+		max-width: 100%;
+		width: 100%;
+		box-shadow: 0px 0px 10px 1px #888888;
+	}
 }
 
 /******************************
@@ -78,7 +98,7 @@ h1, h2, h3, h4, h5, h6{
 
 #sectionConfigureSettings img{
 	float: right;
-	max-width: 40vw;
+	max-width: 35vw;
 	box-shadow: 0px 0px 10px 1px #888888;
 }
 
@@ -91,7 +111,36 @@ h1, h2, h3, h4, h5, h6{
 	}
 }
 
-/* Other Section*/
+/*************************** 
+	Schedule Section
+*****************************/
+#sectionSetSchedule{
+	padding: 4em 15px 2em 15px;
+}
+
+#textSetSchedule{
+	display: flex;
+	align-items: center;
+}
+
+
+#sectionSetSchedule img{
+	max-width: 35vw;
+	box-shadow: 0px 0px 10px 1px #888888;
+}
+
+@media (max-width: 992px){
+	#sectionSetSchedule img{
+		text-align: center;
+		max-width: 100%;
+		width: 100%;
+		box-shadow: 0px 0px 10px 1px #888888;
+	}
+}
+
+/*************************** 
+	Other Section
+*****************************/
 #sectionOther{
 	text-align: center;
 	padding: 2em 15px 4em 15px;
