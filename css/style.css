@@ -1,5 +1,6 @@
 body{
-	background: #efefef;
+	background: #f7f7f7;
+	font-size: 17px;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -22,8 +23,7 @@ h1, h2, h3, h4, h5, h6{
 ********************/
 
 #headerMain{
-	background: linear-gradient(#8DACEF, #2A2B28);
-	color: white;
+	background: #F7F7F7;
 	text-align: center;
 	padding-bottom: 0;
 	margin-bottom: 0;
@@ -31,6 +31,7 @@ h1, h2, h3, h4, h5, h6{
 
 #headerUI{
 	display: none;
+	box-shadow: rgba(0,0,0,0.20) 0 -5px 10px;
 }
 
 #headerMain img{
@@ -40,6 +41,18 @@ h1, h2, h3, h4, h5, h6{
 #headerMain img#headerLogo{
 	max-width: 300px;
 	width: 80%;
+}
+
+#headerText{
+	font-size: 1.1em;
+	font-weight: 500;
+	max-width: 1000px;
+	margin: 0 auto 1em auto;
+}
+
+#demoButton{
+	background: #4E73AB;
+	border: none;
 }
 
 /***************************** 
@@ -57,6 +70,33 @@ h1, h2, h3, h4, h5, h6{
 	background: #2D333B;
 }
 
+/******************* 
+	The Problem
+********************/
+
+#sectionTheProblem{
+	padding: 2em 15px 2em 15px;
+}
+
+#sectionTheProblem h3{
+	text-align: center;
+}
+
+#sectionTheProblem p{
+	display: block;
+    max-width: 700px;
+    margin: 1em auto 1em auto;
+}
+
+#serviceLogos{
+	text-align: center;
+}
+
+#serviceLogos img{
+	max-width: 175px;
+	padding: 1em 1em;
+}
+
 /*******************************
 	 Select Folder Section 
 *******************************/
@@ -68,7 +108,6 @@ h1, h2, h3, h4, h5, h6{
 	display: flex;
 	align-items: center;
 }
-
 
 #sectionSelectFolder img{
 	max-width: 35vw;
@@ -149,6 +188,31 @@ h1, h2, h3, h4, h5, h6{
 #sectionOther img{
 	width: 100%;
 	box-shadow: 0px 0px 10px 1px #888888;
+}
+
+/*************************** 
+	Contact Section
+*****************************/
+#sectionContact{
+	padding: 2em 15px 4em 15px;
+}
+
+#sectionContact label{
+	font-weight: 600;
+}
+
+#sectionContact h3, #sectionContact p{
+	text-align:center;
+}
+
+.required-input{
+	color: red;
+	font-weight: 600;
+}
+
+#sectionContact button{
+	background: #4E73AB;
+	border: none;
 }
 
 /******************* 

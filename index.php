@@ -1,8 +1,10 @@
 <!DOCTYPE html>
+<?php include 'functions.php' ?>
 <html>
 <head>
 	<title>VerQu | MessageWatch</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="img/favicon.png" sizes="16x16" type="image/png">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-flex.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
@@ -14,8 +16,8 @@
 	<div class="jumbotron" id="headerMain">
 	  	<div class="container">
 	  		<img id="headerLogo" src="img/MessageWatchLogoBlack.png">
-			<p>MessageWatch elimates compliance issues, and ensures that all messages are migrated successfully. This makes it a great tool for those in the compliance, messaging, legal/eDiscovery and operations space.</p>
-			<p><a class="btn btn-primary btn-lg" href="#firstBanner" role="button">Learn more &raquo;</a></p>
+			<p id="headerText">MessageWatch elimates compliance issues, and ensures that all messages are migrated successfully.</p>
+			<p><a class="btn btn-primary btn-lg" id="demoButton" href="#getStartedBanner" role="button">Request Demo</a></p>
 			<img id="headerUI" src="img/MessageWatchScreenHalf.png">
 		</div>
 	</div>
@@ -27,9 +29,9 @@
 	</div>
 
 	<!-- The Problem Section -->
-	<section class="container" id="sectionSelectFolder">
+	<section class="container" id="sectionTheProblem">
 		<div class="row">
-			<div class="col-lg-8 " id="textSelectFolder">
+			<div class="col-lg-12" id="textTheProblem">
 				<div>
 					<h3>The Problem</h3>
 
@@ -37,7 +39,13 @@
 
 					<p>Your company is utilizing more than just email to communicate - <strong>LinkedIn, Skype for Business, Financial Systems (Reuters, Bloomberg), Slack, etc.</strong> – are all utilized for communications and all of which are discoverable and required in court cases if you’re faced with litigation.</p>
 
-					<p>If your company utilizes EV and is not handling Failed Messages, <strong>your Mail Archiving system is not in full compliance.</strong></p>
+					<p>If your company utilizes EV and is not handling Failed Messages, <strong>your Mail Archiving system is <u>not in full compliance.</u></strong></p>
+
+					<div id="serviceLogos">
+						<img src="img/slack-logo-sm.png">
+						<img src="img/skype-logo-sm.png">
+						<img src="img/linkedin-logo-sm.png">
+					</div>
 				</div>
 			</div>
 			<div class="col-lg-3">
@@ -106,8 +114,48 @@
 	<!-- Other Section -->
 	<section class="container" id="sectionOther">
 		<h3>Let MessageWatch Do The Rest</h3>
-		<p>Once you have chosen all your settings, MessageWatch will take care of the rest. MessageWatch scans journal mailboxes for failed messages and re-ingests them into Enterprise Vault to be processed again. Message Watch will run on its set schedule so that there is less impact to the Messaging Team.  This frees up valuable resources to work on mission critical issues.  More important – processing of Failed Messages makes searches more complete for eDiscovery &amp; legal searches.</p>
+		<p>Once you have chosen all your settings, MessageWatch will take care of the rest. MessageWatch scans journal mailboxes for failed messages and re-ingests them into Enterprise Vault to be processed again. Message Watch will run on its set schedule so that there is less impact to the Messaging Team.  This frees up valuable resources to work on mission critical issues.  More importantly – processing of Failed Messages makes searches more complete for eDiscovery &amp; legal searches.</p>
 		<img src="img/MessageWatchScreen.png">
+	</section>
+
+	<div class="row banner" id="getStartedBanner">
+		<div class="container">
+			<h3>Get Started With MessageWatch</h3>
+		</div>
+	</div>
+
+	<!-- Contact Section -->
+	<section class="container" id="sectionContact">
+		<div class="row">
+			<div class="col-lg-6 offset-lg-3">
+				<h3>Contact Us</h3>
+				<p>Fill out the form below to learn more about MessageWatch!</p>
+				<form method="post" action="<?php echo $_SERVER['PHP_SELF'] . "#getStartedBanner" ?>">
+					<div class="form-group">
+						<label for="name">Name: <span class="required-input">*</span></label>
+						<input type="text" class="form-control" name="name" placeholder="ex. John Doe" required/>
+					</div>
+					<div class="form-group">
+					    <label for="email">Email address: <span class="required-input">*</span></label>
+					    <input type="email" class="form-control" name="email" placeholder="ex. email@example.com" required>
+					</div>
+					<div class="form-group">
+					    <label for="phone_number">Phone Number: <span class="required-input">*</span><br><small>(format: 555-555-1212)</small> </label>
+					    <input type="tel" class="form-control" name="phone_number" pattern="^\d{3}-\d{3}-\d{4}$" placeholder="ex. 555-555-1212" required>
+					</div>
+					<div class="form-group">
+					    <label for="message">Message:</label>
+					    <textarea class="form-control" name="message" rows="10"></textarea>
+					</div>
+				  <button class="btn btn-primary btn-lg" type="submit" name="submit" class="btn btn-default">Submit</button>
+				</form>
+				<?php
+					if (isset($_POST['submit'])) {
+						demoRequest();
+					}
+				?>
+			</div>
+		</div>
 	</section>
 
 		<!-- Footer -->
