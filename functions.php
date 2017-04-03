@@ -16,8 +16,7 @@
 
 		$header = "From: noreply@message-watch.com\r\n"; 
 		$header.= "MIME-Version: 1.0\r\n"; 
-		$header.= "Content-Type: text/html; charset=ISO-8859-1\r\n"; 
-		$header.= "X-Priority: 1\r\n";
+		$header.= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
 		//Message for email to us
 		$message = "<h2>MesssageWatch Demo Request</h2>";
@@ -33,7 +32,7 @@
 		mail($to, $subject, $message, $header);
 
 		echo 
-		"<div class='alert alert-success' role='alert'>
+		"<div class='alert alert-success' id='emailSuccess' role='alert'>
   			<strong>Success!</strong> Your request for a demo has been received. We will get back to you as soon as we can!
 		</div>";
 	}

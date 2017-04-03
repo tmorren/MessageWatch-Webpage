@@ -16,7 +16,7 @@
 	<div class="jumbotron" id="headerMain">
 	  	<div class="container">
 	  		<img id="headerLogo" src="img/MessageWatchLogoBlack.png">
-			<p id="headerText">MessageWatch elimates compliance issues, and ensures that all messages are migrated successfully.</p>
+			<p id="headerText">MessageWatch elimates compliance issues, and ensures that all messages are archived successfully.</p>
 			<p><a class="btn btn-primary btn-lg" id="demoButton" href="#getStartedBanner" role="button">Request Demo</a></p>
 			<img id="headerUI" src="img/MessageWatchScreenHalf.png">
 		</div>
@@ -35,7 +35,7 @@
 				<div>
 					<h3>The Problem</h3>
 
-					<p>In today's business environment, Compliance and Legal departments can be asked to produce electronic copies of important communications or documents.  Every day, your business handles countless messages and files that could contain essential information for business, tax or contractual purposes. Companies are <strong>required by law</strong> to maintain these communications for a period of time.</p>
+					<p>In today's business environment, Compliance and Legal departments can be asked to produce electronic copies of important communications or documents.  Every day, your business handles countless messages and files that could contain essential information for business, tax or contractual purposes. Companies are <strong>required by law</strong> to maintain these communications as governed by <strong>SEC Rule 17a-4.</strong></p>
 
 					<p>Your company is utilizing more than just email to communicate - <strong>LinkedIn, Skype for Business, Financial Systems (Reuters, Bloomberg), Slack, etc.</strong> – are all utilized for communications and all of which are discoverable and required in court cases if you’re faced with litigation.</p>
 
@@ -59,8 +59,24 @@
 		</div>
 	</div>
 
+
+	<section class="container" id="sectionMessageWatch">
+		<div class="row">
+			<div class="col-lg-12" id="textMessageWatch">
+				<div>
+					<p>VerQu’s proprietary software MessageWatch processes Failed Messages so you don’t have to!</p>
+					<p>Message Watch scans journal mailboxes for failed messages and re-ingests them into Enterprise Vault to be processed again.</p>
+					<img src="img/data-image3.png">
+					<p>Message Watch can be scheduled to run on a recurring basis so that there is less impact to the Messaging Team.  This frees up valuable resources to work on mission critical issues.  More important – processing of Failed Messages makes searches more complete for eDiscovery &amp; legal searches.</p>
+
+				</div>
+			</div>
+			<div class="col-lg-3">
+			</div>
+		</div>
+	</section>
 	<!-- Select Folder Sections -->
-	<section class="container" id="sectionSelectFolder">
+	<!--<section class="container" id="sectionSelectFolder">
 		<div class="row">
 			<div class="col-lg-6" id="textSelectFolder">
 				<div>
@@ -70,13 +86,13 @@
 				</div>
 			</div>
 			<div class="col-lg-4">
-				<img  src="img/MWConfigureFolders.png">
+				<img src="img/MWConfigureFolders.png">
 			</div>
 		</div>
-	</section>
+	</section>-->
 
 	<!-- Configure Settings Sections -->
-	<section class="container" id="sectionConfigureSettings">
+	<!--<section class="container" id="sectionConfigureSettings">
 		<div class="row">
 			<div class="col-lg-5 push-lg-6" id="textConfigureSettings">
 				<div>
@@ -91,13 +107,13 @@
 				</div>
 			</div>
 			<div class="col-lg-5 pull-lg-5 offset-lg-1">
-				<img  src="img/MWSettingsDestinations.png">
+				<img src="img/MWSettingsDestinations.png">
 			</div>
 		</div>
-	</section>
+	</section>-->
 
 	<!-- Set a Schedule Sections -->
-	<section class="container" id="sectionSetSchedule">
+	<!--<section class="container" id="sectionSetSchedule">
 		<div class="row">
 			<div class="col-lg-6" id="textSetSchedule">
 				<div>
@@ -109,14 +125,14 @@
 				<img  src="img/MessageWatchScheduler.png">
 			</div>
 		</div>
-	</section>
+	</section>-->
 
 	<!-- Other Section -->
-	<section class="container" id="sectionOther">
+	<!--<section class="container" id="sectionOther">
 		<h3>Let MessageWatch Do The Rest</h3>
 		<p>Once you have chosen all your settings, MessageWatch will take care of the rest. MessageWatch scans journal mailboxes for failed messages and re-ingests them into Enterprise Vault to be processed again. Message Watch will run on its set schedule so that there is less impact to the Messaging Team.  This frees up valuable resources to work on mission critical issues.  More importantly – processing of Failed Messages makes searches more complete for eDiscovery &amp; legal searches.</p>
 		<img src="img/MessageWatchScreen.png">
-	</section>
+	</section>-->
 
 	<div class="row banner" id="getStartedBanner">
 		<div class="container">
@@ -160,12 +176,21 @@
 
 		<!-- Footer -->
 	<footer class="container-fluid">
-		<img src="img/MessageWatchLogoWhite.png">
-		<p>Powered by <a href="https://www.verqu.com" target="_blank">VerQu</a></p>
+		<img src="img/MessageWatchLogoWhite.png"><br /><br />
+		<p>Powered by <a href="https://www.verqu.com" target="_blank"><img id="footerVQLogo" src="img/verqu-white.png"></a></p>
 	</footer>
 
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-77849150-2', 'auto');
+	  ga('send', 'pageview');
+	</script>
 </body>
 </html>
