@@ -64,10 +64,9 @@
 		<div class="row">
 			<div class="col-lg-12" id="textMessageWatch">
 				<div>
-					<p>VerQu’s proprietary software MessageWatch processes Failed Messages so you don’t have to!</p>
-					<p>Message Watch scans journal mailboxes for failed messages and re-ingests them into Enterprise Vault to be processed again.</p>
+					<p>VerQu’s proprietary software MessageWatch processes Failed Messages so you don’t have to! MessageWatch scans journal mailboxes for failed messages and re-ingests them into Enterprise Vault to be processed again.</p>
 					<img src="img/data-image3.png">
-					<p>Message Watch can be scheduled to run on a recurring basis so that there is less impact to the Messaging Team.  This frees up valuable resources to work on mission critical issues.  More important – processing of Failed Messages makes searches more complete for eDiscovery &amp; legal searches.</p>
+					<p>MessageWatch can be scheduled to run on a recurring basis so that there is less impact to the Messaging Team.  This frees up valuable resources to work on mission critical issues.  More important – processing of Failed Messages makes searches more complete for eDiscovery &amp; legal searches.</p>
 
 				</div>
 			</div>
@@ -75,64 +74,6 @@
 			</div>
 		</div>
 	</section>
-	<!-- Select Folder Sections -->
-	<!--<section class="container" id="sectionSelectFolder">
-		<div class="row">
-			<div class="col-lg-6" id="textSelectFolder">
-				<div>
-					<h3>Select a folder</h3>
-					<p>MessageWatch scans journal mailboxes for failed messages and re-ingests them into Enterprise Vault to be processed again.</p>
-					<p>Feugiat posidonium pri ei, sea ea commodo singulis, veri viris consul at ius. An quem illud ludus duo cu.</p>
-				</div>
-			</div>
-			<div class="col-lg-4">
-				<img src="img/MWConfigureFolders.png">
-			</div>
-		</div>
-	</section>-->
-
-	<!-- Configure Settings Sections -->
-	<!--<section class="container" id="sectionConfigureSettings">
-		<div class="row">
-			<div class="col-lg-5 push-lg-6" id="textConfigureSettings">
-				<div>
-					<h3>Configure Settings</h3>
-					<p>MessageWatch can be configured to meet your compliance needs. MessageWatch provides you with a wide variety of options to make sure everything is done exactly how you need it. The settings include: </p>
-					<ul>
-						<li>Output Locations</li>
-						<li>Threading</li>
-						<li>Destinations</li>
-						<li>Reporting</li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-lg-5 pull-lg-5 offset-lg-1">
-				<img src="img/MWSettingsDestinations.png">
-			</div>
-		</div>
-	</section>-->
-
-	<!-- Set a Schedule Sections -->
-	<!--<section class="container" id="sectionSetSchedule">
-		<div class="row">
-			<div class="col-lg-6" id="textSetSchedule">
-				<div>
-					<h3>Set Your Schedule</h3>
-					<p>Scheduling allows you to create new scheduled events or delete older ones. MessageWatch can be configured to run on a daily, weekly, or monthly schedule. Creating a new scheduled event is very straightforward and deleting older ones are even easier.</p>
-				</div>
-			</div>
-			<div class="col-lg-4">
-				<img  src="img/MessageWatchScheduler.png">
-			</div>
-		</div>
-	</section>-->
-
-	<!-- Other Section -->
-	<!--<section class="container" id="sectionOther">
-		<h3>Let MessageWatch Do The Rest</h3>
-		<p>Once you have chosen all your settings, MessageWatch will take care of the rest. MessageWatch scans journal mailboxes for failed messages and re-ingests them into Enterprise Vault to be processed again. Message Watch will run on its set schedule so that there is less impact to the Messaging Team.  This frees up valuable resources to work on mission critical issues.  More importantly – processing of Failed Messages makes searches more complete for eDiscovery &amp; legal searches.</p>
-		<img src="img/MessageWatchScreen.png">
-	</section>-->
 
 	<div class="row banner" id="getStartedBanner">
 		<div class="container">
