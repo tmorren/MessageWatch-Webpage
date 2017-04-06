@@ -37,15 +37,7 @@
 
 					<p>In today's business environment, Compliance and Legal departments can be asked to produce electronic copies of important communications or documents.  Every day, your business handles countless messages and files that could contain essential information for business, tax or contractual purposes. Companies are <strong>required by law</strong> to maintain these communications as governed by <strong>SEC Rule 17a-4.</strong></p>
 
-					<p>Your company is utilizing more than just email to communicate - <strong>LinkedIn, Skype for Business, Financial Systems (Reuters, Bloomberg), Slack, etc.</strong> – are all utilized for communications and all of which are discoverable and required in court cases if you’re faced with litigation.</p>
-
 					<p>If your company utilizes EV and is not handling Failed Messages, <strong>your Mail Archiving system is <u>not in full compliance.</u></strong></p>
-
-					<div id="serviceLogos">
-						<img src="img/slack-logo-sm.png">
-						<img src="img/skype-logo-sm.png">
-						<img src="img/linkedin-logo-sm.png">
-					</div>
 				</div>
 			</div>
 			<div class="col-lg-3">
