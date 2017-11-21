@@ -79,7 +79,7 @@
 			<div class="col-lg-6 offset-lg-3">
 				<h3>Contact Us</h3>
 				<p>Fill out the form below to learn more about MessageWatch!</p>
-				<form method="post" action="<?php echo $_SERVER['PHP_SELF'] . "#getStartedBanner" ?>">
+				<!-- <form method="post" action="<?php echo $_SERVER['PHP_SELF'] . "#getStartedBanner" ?>">
 					<div class="form-group">
 						<label for="name">Name: <span class="required-input">*</span></label>
 						<input type="text" class="form-control" name="name" placeholder="ex. John Doe" required/>
@@ -102,7 +102,11 @@
 					if (isset($_POST['submit'])) {
 						demoRequest();
 					}
-				?>
+				?> -->
+				<div class="cognito">
+					<script src="https://services.cognitoforms.com/s/5Z-wdnrNvUK7ssyPZ8hpsA"></script>
+					<script>Cognito.load("forms", { id: "2" });</script>
+				</div>
 			</div>
 		</div>
 	</section>
